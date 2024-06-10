@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" />
+        <img class="youtube-logo" src="icons/youtube-logo.svg" />
+      </div>
+      <div class="middle-section">
+        <input class="search" type="text" placeholder="Search" />
+        <button class="search-icon">
+          <img class="search-icon-image" src="icons/search.svg" />
+          <div class="search-show-text">Search</div>
+        </button>
+        <button class="voice-search-icon">
+          <img class="voice-search-image" src="icons/voice-search-icon.svg" />
+          <div class="search-show-voice">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="upload-videos">
+          <img class="upload" src="icons/upload.svg" />
+          <div class="upload-show">Upload your video</div>
+        </div>
+
+        <div class="youtube-apps">
+          <img src="icons/youtube-apps.svg" />
+          <div class="youtube-apps-show">Youtube Apps</div>
+        </div>
+
+        <div class="notifications-sign-div">
+          <img class="notifications" src="icons/notifications.svg" />
+          <div class="notifications-sign">10</div>
+          <div class="youtube-notifications">Notifications</div>
+        </div>
+
+        <div>
+          <img
+            class="main-channel-profile"
+            src="profiles/channel profile.jpg"
+          />
+        </div>
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg" />
+        <div>explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" />
+        <div>subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg" />
+        <div>originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg" />
+        <div>youtube music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" />
+        <div>library</div>
+      </div>
+    </nav>
+    
+    <main>
+      <section class="video-grid-general">
+        <div class="video-preview">
+          <div style="position: relative">
+            <img
+              class="image1"
+              src="thumbnails/css in one hour.webp"
+              alt="someone"
+            />
+            <div class="video-time">12:34</div>
+          </div>
+          <div class="video-grid-info">
+            <div class="channel-profile">
+              <img
+                class="profil5"
+                src="profiles/profile (11).jpg"
+                alt="profile"
+              />
+              <div class="profile-zoom">
+                <img
+                  class="profil5"
+                  src="profiles/profile (11).jpg"
+                  alt="profile"
+                />
+                <p class="video-author">
+                  Mahruf Arif <br />
+                  <span class="video-author2">300k Subscribers</span>
+                </p>
+              </div>
+            </div>
+            <div class="channel-info">
+              <p class="video-title">learn CSS with me from beginner to pro</p>
+              <p class="video-author">Mahruf Arif</p>
+              <p class="video-stats">1M views &#183; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div style="position: relative">
+            <img
+              class="image1"
+              src="thumbnails/javascript.webp"
+              alt="someone"
+            />
+            <div class="video-time">12:10:00</div>
+          </div>
+          <div class="video-grid-info">
+            <div class="channel-profile">
+              <img
+                class="profil5"
+                src="profiles/profile (12).jpg"
+                alt="profile"
+              />
+              <div class="profile-zoom">
+                <img
+                  class="profil5"
+                  src="profiles/profile (12).jpg"
+                  alt="profile"
+                />
+                <p class="video-author">
+                  Simon <br />
+                  <span class="video-author2">10M Subscribers</span>
+                </p>
+              </div>
+            </div>
+            <div class="channel-info">
+              <p class="video-title">
+                learn JavaScript with me from beginner to pro
+              </p>
+              <p class="video-author">Simon</p>
+              <p class="video-stats">12M views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div style="position: relative">
+            <img class="image1" src="thumbnails/aj.webp" alt="someone" />
+            <div class="video-time">10:00</div>
+          </div>
+          <div class="video-grid-info">
+            <div class="channel-profile">
+              <img
+                class="profil5"
+                src="profiles/profile (16).jpg"
+                alt="profile"
+              />
+
+              <div class="profile-zoom">
+                <img
+                  class="profil5"
+                  src="profiles/profile (16).jpg"
+                  alt="profile"
+                />
+                <p class="video-author">
+                  Aj.Hoge <br />
+                  <span class="video-author2">40M Subscribers</span>
+                </p>
+              </div>
+            </div>
+            <div class="channel-info">
+              <p class="video-title">
+                learn english with me from beginner to pro
+              </p>
+              <p class="video-author">Aj.Hoge</p>
+              <p class="video-stats">40M views &#183; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div style="position: relative">
+            <img
+              class="image1"
+              src="thumbnails/einstein (1).webp"
+              alt="someone"
+            />
+            <div class="video-time">1:35:00</div>
+          </div>
+          <div class="video-grid-info">
+            <div class="channel-profile">
+              <img
+                class="profil5"
+                src="profiles/profile (7).jpg"
+                alt="profile"
+              />
+
+              <div class="profile-zoom">
+                <img
+                  class="profil5"
+                  src="profiles/profile (7).jpg"
+                  alt="profile"
+                />
+                <p class="video-author">
+                  Einstein <br />
+                  <span class="video-author2">3M Subscribers</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="channel-info">
+              <p class="video-title">
+                learn Computer Science with me, you know who is here
+              </p>
+              <p class="video-author">Einstein</p>
+              <p class="video-stats">300K views &#183; 35 minutes ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div style="position: relative">
+            <img class="image1" src="thumbnails/keyboard.webp" alt="someone" />
+            <div class="video-time">5:00</div>
+          </div>
+          <div class="video-grid-info">
+            <div class="channel-profile">
+              <img
+                class="profil5"
+                src="profiles/profile (17).jpg"
+                alt="profile"
+              />
+              <div class="profile-zoom">
+                <img
+                  class="profil5"
+                  src="profiles/profile (17).jpg"
+                  alt="profile"
+                />
+                <p class="video-author">
+                  FastTyper <br />
+                  <span class="video-author2">1M Subscribers</span>
+                </p>
+              </div>
+            </div>
+            <div class="channel-info">
+              <p class="video-title">The world record of fast typing</p>
+              <p class="video-author">FastTyper</p>
+              <p class="video-stats">670K views &#183; 2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div style="position: relative">
+            <img class="image1" src="thumbnails/moti.webp" alt="someone" />
+            <div class="video-time">39:00</div>
+          </div>
+          <div class="video-grid-info">
+            <div class="channel-profile">
+              <img
+                class="profil5"
+                src="profiles/profile (9).jpg"
+                alt="profile"
+              />
+
+              <div class="profile-zoom">
+                <img
+                  class="profil5"
+                  src="profiles/profile (9).jpg"
+                  alt="profile"
+                />
+                <p class="video-author">
+                  CNN <br />
+                  <span class="video-author2">1M Subscribers</span>
+                </p>
+              </div>
+            </div>
+            <div class="channel-info">
+              <p class="video-title">
+                Motivational speech by <em> BELIEVE IN YOUSELF</em>
+              </p>
+              <p class="video-author">CNN</p>
+              <p class="video-stats">1B views &#183; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
